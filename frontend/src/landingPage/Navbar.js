@@ -27,13 +27,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink activeClassName="active" className="nav-link" to="/">
+              <NavLink activeclassname="active" className="nav-link" to="/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-link"
                 to="/about"
               >
@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-link"
                 to="/products"
               >
@@ -51,7 +51,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-link"
                 to="/pricing"
               >
@@ -64,7 +64,8 @@ function Navbar() {
                 aria-current="page"
                 to="https://trading-dashboard-lctt.onrender.com"
               >
-                Dashboard <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Dashboard{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </NavLink>
             </li>
           </ul>
