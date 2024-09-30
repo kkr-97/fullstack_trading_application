@@ -57,6 +57,9 @@ Welcome to the **Frontend** of the Trading Application! This repository contains
 - React for dynamic UI
 - CSS and Bootstrap for styling and responsive design
 
+![image](https://github.com/user-attachments/assets/70ebdf9a-b564-4eab-a7f8-ccdb21762d53)
+
+
 Check out the **live landing page** here: [Trading App Frontend](https://trading-app-frontend-eggc.onrender.com)
 
 Explore the code: [GitHub - Trading Frontend](https://github.com/kkr-97/trading_app_frontend.git)
