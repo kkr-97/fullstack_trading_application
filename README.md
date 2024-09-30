@@ -53,5 +53,6 @@ This repository contains the frontend for the Trading Application. It features a
 
 - React
 - CSS, Bootstrap
+![image](https://github.com/user-attachments/assets/2ebdd8db-948a-4678-b97b-f59867dbc4f0)
 
 
