@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+/* .Navbar Styling */
+
+.navbar-nav li {
+  margin-left: 26px;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+}
+
+.nav-link.active:hover {
+  color: #0056b3; 
+}
+
+.educate-container img{
+  max-width: 340px;
+  align-self: center;
+  margin: auto;
+}
+
+/* AboutPricing Styling */
+.pricing-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 14px;
+  text-align: center;
+}
+
+.pricing-item img{
+  width: 100px;
+}
+
+/* Footer Styling */
+footer{
+  background-color: #f0f0f0;
+}
+
+
+.social-media-list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-media-list li{
+  margin-right: 20px;
+}
+
+.footer-container a{
+  margin-top: 32px;
+  font-size: 0.8rem;
+}
+
+.footer-container a:hover{
+  color: #007bff;
+}
+
+.footer-description{
+  font-size: 0.8rem;
+  margin-top: 24px;
+}
+
+
+/* Pricing Component Styling */
+
+.pricing-features img{
+  width: 65%;
+}
+
+/* Team Component Styling */
+
+.team-container img{
+  border-radius: 100%;
+  height: 290px;
+}
+
+
+/* Product Component Styling */
+.patners-container img{
+  height: 38px;
+}
+
+.patners-container .patner-card{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* NavSpecial Item */
+/* Keyframes for blinking effect */
+@keyframes blinking-text {
+  0% {
+    color: #f09433; /* Start with the first Instagram color */
+    border-color: #f09433;
+  }
+  25% {
+    color: #fcb045;
+    border-color: #fcb045;
+  }
+  50% {
+    color: #fd1d1d;
+    border-color: #fd1d1d;
+  }
+  75% {
+    color: #833ab4;
+    border-color: #833ab4;
+  }
+  100% {
+    color: #f09433; /* Loop back to the first color */
+    border-color: #f09433;
+  }
+}
+
+.nav-item-special {
+  position: relative;
+}
+
+.nav-link-special {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #f09433; /* Initial color */
+  border: 1px solid #f09433; /* Initial border color */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  background-color: transparent; /* Transparent background */
+  animation: blinking-text 2s infinite; /* Apply blinking animation */
+}
+
+.nav-link-special:hover {
+  color: #ffffff; /* Change text color on hover */
+  border-color: #ffffff; /* Change border color on hover */
+  background-color: transparent; /* Keep background transparent */
+}

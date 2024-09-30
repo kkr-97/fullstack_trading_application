@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Hero Styling */
+body{
+    font-family: "Inter", serif;
+    color: #424242
+}
+
+.hero-section{
+    height: 100vh;
+}
+
+.home-hero-img{
+    max-height: 45vh;
+    max-width: 900px !important;
+}
+
+h1, h2, h3, h4, h5{
+    margin-bottom: 42px;
+}
+
+h1{
+    font-size: 2.75rem;
+    line-height: 1.25;
+}
+
+h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.feature-img{
+    max-width: 85%;
+}
+.features-list-container{
+    padding: 0;
+    list-style-type: none;
+}
+
+.feature-item h4{
+    margin-bottom: 14px;
+}
+
+.feature-item p{
+    margin-bottom: 38px;
+    color: #666;
+    line-height: 1.8rem;
+}
+.explore-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Features Styling */
+
+.home-hero .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pricing Component */
+.home-hero .about-pricing-container{
+    margin-top: 55px;
+    display: flex;
+    align-items: flex-end;
+}
+.home-hero .pricing-list-container{
+    display: flex;
+    align-items: center;
+}
+
+.home-hero .pricing-item{
+    display: flex;
+}
+
+.home-hero .pricing-item img{
+    width: 120px;
+}
+
+.home-hero .pricing-item p{
+    font-size: 10px;
+    align-self: flex-end;
+    margin-left: -8px;
+}
