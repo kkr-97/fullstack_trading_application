@@ -18,6 +18,11 @@ This repository contains the dashboard for the Trading Application. It includes 
 - ContextAPI
 - CSS, Bootstrap
 
+![image](https://github.com/user-attachments/assets/efd8f175-2e67-4d7e-84e4-f09f5b23e532)
+![image](https://github.com/user-attachments/assets/880acedb-1bec-415c-b97e-2ebce9bf7e9d)
+
+
+
 
 ---
 
