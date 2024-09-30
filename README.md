@@ -15,7 +15,7 @@ Welcome to the **Dashboard** of the Trading Application! This dashboard allows u
 - ContextAPI for state management
 - CSS and Bootstrap for responsive design
 
-Check out the **live dashboard** here: [Trading Dashboard](https://trading-dashboard-lctt.onrender.com)
+Check out the **live dashboard** here: [Trading Dashboard](https://trading-dashboard-lctt.onrender.com) (As backend deployed on render each request may takes 50 seconds. Your patience is appreciated.)
 
 Explore the code: [GitHub - Trading Dashboard](https://github.com/kkr-97/trading_dashboard.git)
 
