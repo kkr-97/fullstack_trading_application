@@ -12,7 +12,6 @@ describe("Navbar Testing", () => {
       </MemoryRouter>
     );
     const logoImg = screen.getByAltText("zerodha logo");
-    const logoImgStyle = getComputedStyle(logoImg);
     expect(logoImg).toBeInTheDocument();
   });
   test("Render Nav Image", () => {
