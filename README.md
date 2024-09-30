@@ -1,6 +1,6 @@
 # Trading Application - Dashboard
 
-Welcome to the **Dashboard** of the Trading Application! This dashboard allows users to effectively manage their stock investments, giving them real-time insights and control over their holdings and trades.
+Welcome to the **Dashboard** of the Trading Application! This dashboard allows users to manage their stock investments effectively, giving them real-time insights and control over their holdings and trades.
 
 ## Features
 
@@ -15,7 +15,7 @@ Welcome to the **Dashboard** of the Trading Application! This dashboard allows u
 - ContextAPI for state management
 - CSS and Bootstrap for responsive design
 
-Check out the **live dashboard** here: [Trading Dashboard](https://trading-dashboard-lctt.onrender.com) (As backend deployed on render each request may takes 50 seconds. Your patience is appreciated.)
+Check out the **live dashboard** here: [Trading Dashboard](https://trading-dashboard-lctt.onrender.com) (As the backend deployed on render each request may take 50 seconds. Your patience is appreciated.)
 
 Explore the code: [GitHub - Trading Dashboard](https://github.com/kkr-97/trading_dashboard.git)
 
@@ -30,7 +30,7 @@ This repository contains the **Backend** of the Trading Application, designed to
 ## Features
 
 - **MongoDB Integration**: Efficiently store and manage user data, stock orders, and holdings.
-- **RESTful API**: Provides endpoints for the frontend and dashboard, enabling smooth communication and real-time updates.
+- **RESTful API**: Provides front-end and dashboard endpoints, enabling smooth communication and real-time updates.
 - **Authentication**: Secure user authentication and registration with JWT and bcrypt for encrypted passwords.
 - **Protected Routes**: Implemented middleware to ensure only authenticated users can access critical operations like stock trading and data management.
 
