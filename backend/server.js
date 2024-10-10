@@ -89,7 +89,7 @@ app.post(
       if (!user) {
         return res.status(400).json({ message: "User Not Found" });
       }
-      const isValidPassword = await bcrypt.compare(password, user.password);
+      const isValidPassword = await bcrypt.compare(password, user.passwordHash);
       if (!isValidPassword) {
         return res.status(400).json({ message: "Invalid Password" });
       }
